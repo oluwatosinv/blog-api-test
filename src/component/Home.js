@@ -24,7 +24,7 @@ const Home = () => {
     if (error) {
         return <div>Error: {error.message}</div>;
     } else if (!isLoaded) {
-        return <div>Loading...</div>;
+        return <div className="loader"></div>;
     } else {
         return (
             <MDBContainer>

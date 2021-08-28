@@ -26,7 +26,7 @@ const Blog = (props) => {
         return <div>Error: {error.message}</div>;
     }
     if (!isLoaded) {
-        return <div>Loading...</div>;
+        return <div className="loader"></div>;
     }
 
     if (blog) {
