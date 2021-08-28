@@ -26,3 +26,9 @@
     transform: rotate(360deg);
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .grid-body {
+    grid-template-columns: 1fr 1fr;
+  }
+}
